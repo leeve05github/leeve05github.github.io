@@ -340,7 +340,9 @@ a {
 
 .w3-hoverable tbody tr:hover,
 .w3-ul.w3-hoverable li:hover {
-    background-color: #ccc
+    background-color: #ccc;
+   
+    
 }
 
 .w3-centered tr th,
@@ -1242,7 +1244,8 @@ a {
 
 .w3-opacity,
 .w3-hover-opacity:hover {
-    opacity: 0.60
+    opacity: 0.90;
+    cursor: pointer;
 }
 
 .w3-opacity-off,
