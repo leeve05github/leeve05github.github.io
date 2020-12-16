@@ -16,8 +16,11 @@ html {
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: rgb(42, 38, 38);
+    background-image: url(../myWeb/images/2.jpg);
+    background-repeat:round;
 }
+
+
 
 body {
     margin: 0;
@@ -1966,3 +1969,68 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff!important
 }
+
+
+
+.w3-bar-block ul {
+	list-style-type: none;
+	margin: 5;
+	padding: 5;
+    position: relative;
+    cursor: pointer;
+}
+
+.w3-bar-block ul ul a {
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #262424;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.w3-bar-block a.current {
+	color: yellow;
+}
+.w3-bar-block ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.w3-bar-block ul:hover > ul {
+    display: contents;
+    cursor: pointer;
+   
+}
+.w3-bar-block > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#intro {
+    border: solid 2px #46514e ;
+    background-color: #46514e;
+}
+
+#intro h4, #intro p {
+    padding: 10px;
+    color: white;
+}
+
+#profile-photo {
+
+align-self: center;
+
+}
+.profile-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
