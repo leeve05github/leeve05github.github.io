@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html>
+<title>Yongjin Kim</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../myWeb/styles/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: sans-serif;
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="../myWeb/images/profile3.jpeg" style="width:80%;" class="w3-round"><br><br>
+            <h4><b>김용진</b></h4>
+            <p>안녕하세요!<br> 저의 블로그에 오신걸 환영합니다!.<br> 캐나다 토론토 컬리지에서 프로그래밍을<br> 공부하고 있습니다.</p>
+
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>글</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>자세히</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>미정</a>
+        </div>
+        <div class="w3-panel w3-large">
+            <a href="https://www.instagram.com/leeve05i/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="../myWeb/images/profile.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <h1><b>최근 글</b></h1>
+                <div class="w3-section w3-bottombar w3-padding-16">
+                    <span class="w3-margin-right">필터:</span>
+                    <button class="w3-button w3-black">전체</button>
+                    <button class="w3-button w3-white">테크</button>
+                    <button class="w3-button w3-white w3-hide-small"></i>프로그래밍</button>
+                    <button class="w3-button w3-white w3-hide-small"></i>여행</button>
+                    <button class="w3-button w3-white w3-hide-small"></i>뉴스</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="../myWeb/images/Dell-U2520D.jpg" alt="Dell-U2520D" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>델 U2520D QHD 모니터 리뷰</b></p>
+                    <p>좋은 모니터 입니다.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="../myWeb/images/meandLiza32.jpeg" alt="모스크바" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>여자친구와 모스크바 여행</b></p>
+                    <p>재밌게 여행을 했다.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="../myWeb/images/toICN.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>한국으로의 귀국</b></p>
+                    <p>한국으로 귀국 후 자가격리 2주</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="../myWeb/images/Shaslik.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>핀란드만 그리고 샤슬릭</b></p>
+                    <p>샤슬릭을 먹었다.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="../myWeb/images/arrivalLED.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>상트페테르부르크 도착</b></p>
+                    <p>상트에 도착...</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="../myWeb/images/toSVO.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>모스크바로...</b></p>
+                    <p>여자친구를 만나러 모스크바로 출발했다.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <!--
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div> -->
+
+        <!-- Images of Me -->
+
+        <div class="w3-row-padding w3-padding-16" id="about">
+            <h1><b>  자세히</b></h1>
+            <hr>
+            <div class="w3-col m6">
+
+                <img src="../myWeb/images/profile.jpg" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                < <img src="../myWeb/images/profile2.jpg" alt="Me" style="width:96.7%">
+
+            </div>
+        </div>
+
+
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <h4><b>나는 누구인가?</b></h4>
+            <p>제 이름은 김용진 입니다. 저는 캐나다 키치너에 위치한 코네스토가 컬리지에서 프로그래밍을 공부하고 있습니다. 전자제품과 비행기를 좋아합니다. 러시아에도 관심이 있습니다.</p>
+            <hr>
+
+
+            <!-- Progress bars / Skills -->
+
+
+            <!--<button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>Download Resume
+      </button>
+    </p> -->
+
+
+
+
+
+
+
+
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-32 w3-dark-grey">
+                <div class="w3-row-padding">
+                    <div class="w3-third">
+                        <h3>자세히</h3>
+                        <p>더 자세히...</p>
+
+                    </div>
+
+                    <div class="w3-third">
+                        <h3>글</h3>
+                        <ul class="w3-ul w3-hoverable">
+                            <li class="w3-padding-16">
+                                <img src="../myWeb/images/meandLiza32.jpeg" class="w3-left w3-margin-right" style="width:50px">
+                                <span class="w3-large">모스크바 여행</span><br>
+                                <span>재밌게 여행을 했다</span>
+                            </li>
+                            <li class="w3-padding-16">
+                                <img src="../myWeb/images/Dell-U2520D.jpg" class="w3-left w3-margin-right" style="width:50px">
+                                <span class="w3-large">델 U2520D 리뷰</span><br>
+                                <span>좋은 모니터</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w3-third">
+                        <h3>태그</h3>
+                        <p>
+                            <span class="w3-tag w3-black w3-margin-bottom">프로그래밍</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">토론토</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">에어버스</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">비행기</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">상트페테르부르크</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">애플</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">러시아</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">서울</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">보스</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">캐나다</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">마인크래프트</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">델</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">테크</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">보잉</span>
+                        </p>
+                    </div>
+
+                </div>
+            </footer>
+
+            <div class="w3-black w3-center w3-padding-24">김용진</div>
+
+            <!-- End page content -->
+        </div>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+</body>
+
+</html>
