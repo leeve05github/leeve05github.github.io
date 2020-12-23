@@ -55,6 +55,7 @@ header2 button {
   align-items: center;
   padding: 19px;
   background-color: #3c3636;
+  box-shadow: 10px 10px 10px black;
   
 }
 
@@ -279,4 +280,8 @@ footer {
 
 .soundcloud {
   text-align: center;
+}
+
+.soundcloud iframe {
+  box-shadow: 10px 10px 10px black;
 }
