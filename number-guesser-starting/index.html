@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="game-container">
+      <header2>
+        <button>
+          <a href="../index.html"><h1>돌아가기</h1></a> 
+        </button>
+       
+      </header2>
+
+      <header>
+        <h1>숫자 맞추기!</h1>
+      </header>
+      
+      <div class="rounds">
+        <p class="round-label">라운드 <span id="round-number">1</span></p>
+        <p class="guess-label">무작위 숫자: <span id="target-number">?</span></p>
+      </div>
+
+      <div class="guessing-area">
+        <div class="guess computer-guess">
+          <div class="guess-title">
+            <p class="guess-label">컴퓨터</p>
+            <p class="score-label">점수: <span id="computer-score">0</span></p>
+          </div>
+          <p id="computer-guess">?</p>
+          <p class="winning-text" id="computer-wins"></p>
+        </div>
+        <div class="guess human-guess">
+          <div class="guess-title">
+            <p class="guess-label">당신</p>
+            <p class="score-label">점수: <span id="human-score">0</span></p>
+          </div>
+          <input type="number" id="human-guess" min=0 max=9 value=0>
+          <div class="number-controls">
+            <button class="number-control left" id="subtract" disabled>-</button>
+            <button class="number-control right" id="add">+</button>
+          </div>
+          <button class="button" id="guess">맞추기!</button>
+        </div>
+      </div>
+
+      <div class="next-round-container">
+        <button class="button" id="next-round" disabled>다음 라운드</button>
+      </div>
+
+    </div>
+
+    <div class="soundcloud">
+
+      <iframe width="50%" height="150" scrolling="no" frameborder="no" allow="autoplay" 
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244590361&color=%233a3c42&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break:
+     normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+     <a href="https://soundcloud.com/k-391" title="K-391" target="_blank" style="color: #cccccc; text-decoration: none;">K-391</a> ·
+      <a href="https://soundcloud.com/k-391/k-391-earth" title="Earth" target="_blank" style="color: #cccccc; text-decoration: none;">Earth</a></div>
+
+    </div>
+   
+
+
+    <footer>
+
+      <div class="instructions">
+        <div class="instruction">
+          <h3>1 단계</h3>
+          <p>0 부터 9의 숫자를 입력하세요.</p>
+        </div>
+        <div class="instruction">
+          <h3>2 단계</h3>
+          <p>맞추기를 승자와 무작위 숫자를 확인하세요.</p>
+        </div>
+        <div class="instruction">
+          <h3>3 단계</h3>
+          <p>다음 라운드를 눌러 다음단계로 이동하세요.</p>
+        </div>
+      </div>
+
+      
+
+
+    </footer>
+    
+
+    
+   
+
+      
+
+     
+      
+   
+    
+
+    <script src="./script.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>
