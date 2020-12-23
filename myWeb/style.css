@@ -16,8 +16,8 @@ html {
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-image: url(../myWeb/images/2.jpg);
-    background-repeat:round;
+    background-color: #3a3a3a;
+    
 }
 
 
@@ -1081,6 +1081,8 @@ a {
     padding: 0.01em 16px
 }
 
+
+
 .w3-panel {
     margin-top: 16px;
     margin-bottom: 16px
@@ -2003,6 +2005,7 @@ a {
 .w3-bar-block ul:hover > ul {
     display: contents;
     cursor: pointer;
+    color: rebeccapurple;
    
 }
 .w3-bar-block > ul::after {
@@ -2033,4 +2036,37 @@ align-self: center;
     width: 100%;
 }
 
+.numGusser {
+    background-image: url(../myWeb/images/numnum.jpeg);
+    
+    text-align: center;
+    background-size: 150%;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px #000;
+}
 
+
+.numGusser h3 {
+    
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.numGusser a {
+    text-decoration: none;
+}
+
+.numGusser button {
+    background-color: #2e3433;
+
+}
+
+.numGusser p {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.numGusser button p {
+    text-shadow: none;
+}
